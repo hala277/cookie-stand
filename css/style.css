@@ -1,0 +1,25 @@
+ul li {
+    
+    color:#0E1D2A;
+    margin: auto;
+    width: 60%;
+    padding: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  } 
+
+  h1{
+    font-size: 40px;
+    padding: 5px 0 5px 0;
+    margin: auto;
+  }
+ h2{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+ }
