@@ -1,4 +1,4 @@
-ul li {
+/* ul li {
     
     color:#0E1D2A;
     margin: auto;
@@ -23,3 +23,16 @@ ul li {
     padding-bottom: 20px;
     
  }
+*/
+ table td {
+  border: 1px solid black;
+padding: 5px 5px 5px 5px;
+ } 
+
+ /* table,th,td {
+
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;  
+   
+ }
+    */
