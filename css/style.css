@@ -1,38 +1,152 @@
-/* ul li {
-    
-    color:#0E1D2A;
-    margin: auto;
-    width: 60%;
-    padding: 1px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+*{
+  box-sizing: border-box;
+}
+/* header{
+  background-color: #FA1616;
+  color: white;
+  font-size: 1000px;
+} */
+header{
+  background-color: #BD1616;
+}
+#h1 {
+  
+  font-size: 50px;
+  
+  margin: 20px;
+  /* display: inline-block; */
+ background-color:#ca1111;
+ color: white;
+   padding: 128px; 
+  font-weight: bold; 
+  text-align: center;
+  height: 200px; 
+   
+}
 
-  } 
-
-  h1{
-    font-size: 40px;
-    padding: 5px 0 5px 0;
-    margin: auto;
-  }
- h2{
+ul li a {
+  display: block;
     text-align: center;
-    margin: auto;
-    width: 40%;
-    padding: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  
+ 
+} 
+ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #BD1616; */
     
+}
+li {
+   display: inline-block;
+  margin-left: 35px;
+  color: rgb(253, 253, 253); 
+  text-align: center;
+  
+  
+}
+ /* main{
+   border: lawngreen;
+   background-color:lightcoral;
+ } */
+ nav ul li {
+  list-style-type:circle;
+  color:#000000;
+   margin: auto; 
+  /* text-align: left; */
+   width: 50%;
+   padding-top: 10px;
+   padding: right 10px; ;
+  
+  /* padding: 1px;
+  padding-top: 10px; */
+   
+  font-size: 20px;
+
  }
-*/
+
+#p1{
+  /* text-align: left; */
+  margin: auto;
+  width: 60%;
+  padding: 1px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+#salesCookies{
+  text-decoration: none;
+  padding-top: 100px;
+  padding-bottom: 500px;
+  /* background-color: ; */
+}
  table td {
   border: 1px solid black;
-padding: 5px 5px 5px 5px;
+ padding: 5px 5px 5px 5px;
  } 
 
- /* table,th,td {
+ 
+ 
+    
+  /* ul li a{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    padding-right: 20px;
+    background-color: #000000;
+    /* text-align: center;
+    float:right;
+    padding: 5px;
+    padding-right: 20px;
+    
+    text-decoration: none;
+    color :black; 
+  }
 
-  border: 1px solid black;
-  padding: 5px 5px 5px 5px;  
-   
- }
-    */
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    
+  }
+  li a:hover {
+    background-color: #111111;
+  } */
+  /* li  {
+    display: inline-block;
+    margin-left: 35px;
+    color: lightgray;
+} */
+
+
+li a:hover {
+  background-color: #e9dec2;
+}
+    #fam{
+      padding: 5px;
+      padding-top: 2%; 
+      padding-left:10% ;
+      float:left;
+    }
+    #fishtype{
+      padding-left: 7%;
+      padding-right: 12%;
+      margin: 30px;
+      width: 100%;
+    }
+    #store{
+      padding-left: 7%;
+      padding-right: 12%;
+      margin: 30px;
+      width: 100%;
+    }
+
+    footer{
+      clear: both; 
+      background-color:  #BD1616;
+      height: 70px;
+    }
