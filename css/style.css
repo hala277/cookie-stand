@@ -144,7 +144,14 @@ li a:hover {
       margin: 30px;
       width: 100%;
     }
-
+    #conict p{
+      clear: both;
+      margin: auto;
+      width: 60%;
+      padding: 1px;
+      padding-top: 10px;
+      font-size: 20px;
+    }
     footer{
       clear: both; 
       background-color:  #BD1616;
