@@ -1,5 +1,7 @@
 'use strict';
 let contaner = document.getElementById('salesCookies');
+let myform = document.getElementById('myform');
+myform.addEventListener('submit',addStore);
 let hour = [' 6:00am ',' 7:00am ',' 8:00am ',' 9:00am ',' 10:00am ',' 11:00am ',' 12:00pm ',' 1:00pm ',' 2:00pm ',' 3:00pm ',' 4:00pm ',' 5:00pm ',' 6:00pm ',' 7:00pm '];
 let tableElment = document.createElement('table');
 let salmonCookies =[];
@@ -25,15 +27,23 @@ SalmonCookie.prototype.getNumberOfCustomer = function(min ,max){
             max = Math.floor(max);
             return Math.floor(Math.random() * (max - min + 1) + min);
 
-//    for(let i =0;i< hour.length ; i++){
-//     this.minHC = Math.ceil(this.minHC);
-//     this.maxHC = Math.floor(this.maxHC);
-//     return Math.floor(Math.random() * (this.maxHC - this.minHC + 1) + this.minHC);   
+
 }
 
 
 
 // let Total = 0;
+function addStore(event){
+    event.preventDefault();
+    let name = event.target.name.value;
+    let minHC = event.target.minHC.value;
+    let maxHC = event.target.maxHC.value;
+    let avgCookies = event.target.avgCookies.value;
+    let newStore = new SalmonCookie(name,minHC,maxHC,avgCookies);
+    newStore.getsales();
+    newStore.render();
+
+}
 
 SalmonCookie.prototype.getsales=function(){
     for(let i =0;i < hour.length; i++){
@@ -109,9 +119,7 @@ tdElment.textContent = hour[i] + ' ';
     trElment.appendChild(tdElment3);
     tdElment3.textContent = dailyTotal;
     
-    // let tdElment = document.createElement('td');
-    // trElment.appendChild(tdElment);
-    // tdElment.textContent = dailyTotal;
+   
     }
     
 
