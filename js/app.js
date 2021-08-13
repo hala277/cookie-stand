@@ -40,8 +40,15 @@ function addStore(event){
     let maxHC = event.target.maxHC.value;
     let avgCookies = event.target.avgCookies.value;
     let newStore = new SalmonCookie(name,minHC,maxHC,avgCookies);
+    
     newStore.getsales();
     newStore.render();
+    let footer1 = document.getElementById('footer');
+    creatTableFooter();
+    // creatTableFooter.textContent = '';
+    // this.Total = 0;
+    //  creatTableFooter();
+    
 
 }
 
